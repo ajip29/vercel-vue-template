@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "dev": "vue-cli-service serve --port $PORT",
-    "build": "vue-cli-service build",
+    "build": "node run.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
